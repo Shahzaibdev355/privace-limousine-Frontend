@@ -1,0 +1,12 @@
+/node_modules
+/vercel.json
+/backend
+/Database
+/package-lock.json
+/package.json
+
+
+
+/assets/imgs
+/assets/css/style.css
+/api
