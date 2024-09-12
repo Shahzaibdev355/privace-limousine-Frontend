@@ -1046,7 +1046,7 @@
 
   <script>
     // Initialize Stripe
-    const stripe = Stripe('pk_test_51PtTOAAZfzAmhIqW7ZqUCDTZnLB75UMl9qrfSOIaS1VVQQYynBqK5MhVnoHeKNWLMGp09oFm4CDbkeYMx75lTZjp00WK9UsFBg');
+    const stripe = Stripe('');
     const elements = stripe.elements();
 
     // Create an instance of the card Element.
@@ -1302,7 +1302,7 @@
         };
 
         // Send token and form data to your backend server
-        const response = await fetch('https://privace-backend-woad.vercel.app/charge', {
+        const response = await fetch('Api will be place here', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
